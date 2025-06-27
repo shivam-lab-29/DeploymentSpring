@@ -14,7 +14,7 @@ public class DeploymentController {
     {
         return "Hello shivam My First CI/CD pipeline ";
     }
-    @GetMapping("/greeting")
+    @GetMapping("/greeting/{name}")
     public String greeting(@PathVariable String name)
     {
         return "Hello "+name;
