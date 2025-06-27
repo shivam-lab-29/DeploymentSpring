@@ -11,7 +11,7 @@ public class DeploymentController {
     @GetMapping("/d1")
     public String get()
     {
-        return "My First CI/CD pipeline   ";
+        return "My First CI/CD pipeline    ";
     }
 
 }
